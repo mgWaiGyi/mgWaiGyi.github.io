@@ -1,1 +1,0 @@
-# mgWaiGyi.guithub.io
