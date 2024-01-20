@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contentOne{
+    background-color: #0090fd;
+}
+
+.roboto{
+    font-family: 'roboto', sans-serif;
+}
+
+.sofia{
+    font-family: 'sofia', sans-serif;
+}
+
+.oleo{
+    font-family: 'oleo script', sans-serif;
+}
+
+.sora{
+    font-family: 'sora', sans-serif;
+}
+
+.play{
+    font-family: 'play', sans-serif;
+}
+
+.overPass{
+    font-family: 'overpass', sans-serif;
+}
+
+
+.textOne{
+    width: 100vh;
+    
+}
+
+.text-white{
+    color: #fff;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.d-flexOne{
+    display: flex;
+
+}
+
+.d-flexTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.fs-2x{
+    font-size: 3rem;;
+}
+
+.fs-1x{
+    font-size: 2rem;
+}
+
+.flexgrow-1{
+    flex-grow: 1;
+}
+
+.flexgrow-2{
+    flex-grow: 2;
+}
+
+.flexgrow-3{
+    flex-grow: 3;
+}
+
+.w-1{
+    width: 40%;
+}
+
+.w-2{
+    width: 40%;
+}
+
+.bg-dark{
+    background-color: #000000;
+}
+
+
+.bg-danger{
+    background-color: #ff002f;
+}
+
+.purple{
+    color: #662DFF;
+}
+
+.dark{
+    color: #000000;
+}
+
+.blue{
+    color: #1855cf;
+}
+
+.d-flexOne{
+    display: flex;
+}
+
+.mx-1{
+    margin: 0 50px;
+}
+
+.spaceAround{
+    justify-content: space-around;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .access{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description{
+        width: 80%;
+        text-align: center;
+    }
+
+    .imageOne{
+        width: 100%;
+    }
+}
+
+.contentTwo,.contentThree{
+    background-color: #deeeff;
+}
+
+.fs-1{
+    font-size: 40px;
+}
+
+.fs-2{
+    font-size: 20px;
+}
+
+.h-1{
+    height: 100%;
+}
+
+@media(max-width:768px){
+    .imageTwo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-1{
+        width: 100%;
+    }
+
+    .textTwo{
+        text-align: center;
+        width: 80%;
+    }
+
+    .div-2{
+        flex-direction: column-reverse;
+    }
+
+    .div-3{
+        flex-direction: column;
+    }
+}
+
+.spaceEvenly{
+    justify-content: space-evenly;
+}
+
+.whiteLess{
+    background-color: #cfe6fe;
+}
